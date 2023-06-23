@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Prueba BOOTSTRAP</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+    <link href="styles.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Geologica:wght@100;600&family=Tajawal&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-xxl navbar-light bg-light" aria-label="Navigation bar">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="http://ninaricci.com"><img
+                    src="https://upload.wikimedia.org/wikipedia/commons/0/0f/Nina_Ricci_logo.svg" alt="Nina Ricci logo"
+                    min-height="6.25rem"></a>
+            <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarsExampleXxl" aria-controls="navbarsExampleXxl" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="navbar-collapse collapse" id="navbarsExampleXxl" style="">
+                <ul class="navbar-nav me-auto mb-2 mb-xl-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="https://www.ninaricci.com">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown"
+                            aria-expanded="false">Fragrances</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#nina">Nina</a></li>
+                            <li><a class="dropdown-item" href="#nina-nature">Nina Nature</a></li>
+                            <li><a class="dropdown-item" href="#nina-rose">Nina Rose</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <form role="search">
+                    <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+                </form>
+            </div>
+        </div>
+    </nav>
+    </nav>
+
+    <div id="carouselExampleFade" class="carousel slide carousel-fade container-fluid">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="https://images.prismic.io/nina-ricci/0280bcdc-b34c-49a4-83b4-ed38b072a020_Nature23_06_0080_1x1.jpg"
+                    class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="https://images.prismic.io/nina-ricci/e84ac0f5-19aa-4aee-9320-b98bdd46ef05_03_018_I_sRGB.jpg"
+                    class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="https://images.prismic.io/nina-ricci/5c973527-d680-4402-8505-6d4ed105da36_PALAST-220726-78090_5000x5000.jpg"
+                    class="d-block w-100" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <hr>
+    <hr>
+
+    <div class="card-group container">
+        <div class="card" id="nina">
+            <a href="https://www.ninaricci.com/en-ww/fragrance/product/nina" target="_blank"><img
+                    src="https://images.prismic.io/nina-ricci/0f6acea7-e72a-4e7b-94e7-6e9d63162c2d_FLACON_EDT_FACE_80ml.jpg"
+                    class="card-img-top" alt="Nina"></a>
+            <div class="card-body">
+                <h5 class="card-title">NINA</h5>
+                <h6>EAU DE TOILETTE</h6>
+                <p class="card-text">Inspired by nature, Nina by Nina Ricci is a clean and vegan fragrance as
+                    delightfully fresh and tantalizing as a toffee apple. It's a modern citrus-floral scent, bursting
+                    with positivity and a touch of playfulness. For an eco-responsible approach, Nina's iconic
+                    apple-shaped bottle is available in an 80ml refillable format.</p>
+            </div>
+        </div>
+        <div class="card" id="nina-nature">
+            <a href="https://www.ninaricci.com/en-ww/fragrance/product/nina-nature" target="_blank"><img
+                    src="https://images.prismic.io/nina-ricci/1a17ac33-1c52-4b22-a0cb-12c16a2da9d8_NINA-NATURE-80ml_main.jpg"
+                    class="card-img-top" alt="Nina Nature"></a>
+            <div class="card-body">
+                <h5 class="card-title">NINA NATURE</h5>
+                <H6>LIMITED EDITION</H6>
+                <p class="card-text">Reconnect to nature with the new clean and vegan limited edition Nina Nature Eau de
+                    Toilette by Nina Ricci. As crisp as a just-picked apple glistening with dew in the clear morning
+                    light. Blending natural apple extract with jasmine and vanilla, this green floral scent immerses you
+                    in fresh and flourishing nature wherever you are.</p>
+            </div>
+        </div>
+        <div class="card" id="nina-rose">
+            <a href="https://www.ninaricci.com/en-ww/fragrance/product/nina-rose" target="_blank"><img
+                    src="https://images.prismic.io/nina-ricci/ef940368-1151-47ed-a1dc-101546eb1b79_NINA-ROSE-FLACON_FACE_80ML.jpg"
+                    class="card-img-top" alt="Nina Rose"></a>
+            <div class="card-body">
+                <h5 class="card-title">NINA ROSE</h5>
+                <H6>EAU DE PARFUM</H6>
+                <p class="card-text">The power of rose. In the wake of Nina and Nina Rouge, Nina Rose is an infusion of
+                    optimism and joie de vivre. It is a fragrance that expresses impertinent and vibrant femininity.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="banner container">
+    </div>
+
+
+    <div class="container-fluid">
+        <footer class="py-3 my-4">
+            <ul class="nav border-bottom border-top pt-3 pb-3 mb-3 d-flex">
+                <li class="nav-item"><a href="https://www.ninaricci.com/en-ww" target="_blank"
+                        class="nav-link px-2 text-body-secondary">HOME</a></li>
+                <li class="nav-item"><a href="https://www.ninaricci.com/en-ww/maison-nina-ricci" target="_blank"
+                        class="nav-link px-2 text-body-secondary">MAISON NINA RICCI</a></li>
+                <li class="nav-item"><a href="https://www.ninaricci.com/en-ww/nina-ricci-atelier-custom-creations"
+                        target="_blank" class="nav-link px-2 text-body-secondary">ATELIER SERVICES</a></li>
+                <li class="nav-item"><a href="https://www.puig.com/en/join-us" target="_blank"
+                        class="nav-link px-2 text-body-secondary">CAREERS</a></li>
+                <li class="nav-item"><a href="https://www.ninaricci.com/en-ww/our-commitments" target="_blank"
+                        class="nav-link px-2 text-body-secondary">OUR COMMITMENTS</a></li>
+            </ul>
+            <p class="text-center text-body-secondary">© 2023 Nina Ricci, Inc</p>
+        </footer>
+    </div>
+</body>
+
+</html>

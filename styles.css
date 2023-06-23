@@ -1,0 +1,42 @@
+*{
+    font-family: "Geologica", "Tajawal";
+}
+
+.carousel{
+    background-color: rgba(199, 210, 210, 0.25);
+}
+
+.carousel-item img{
+    object-fit: scale-down;
+    max-height: 26.25rem;
+}
+
+.card{
+    padding: 1.25rem;
+    border: none;
+}
+
+h6{
+    color: rgba(46, 102, 102, 0.25);
+    font-weight: lighter;
+}
+
+hr{
+    border: none;
+}
+
+footer ul{
+    padding-top: .625rem;
+    justify-content: space-between;
+    font-size: .75rem;
+}
+
+.card-group img {
+    border-radius: 5%;
+}
+.banner{
+    min-height: 6.25rem;
+    width: 100%;
+    background-image: url(https://images.prismic.io/nina-ricci/314edd9e-28fb-4ff2-8743-03198f3046c5_Nature23_00_LightTest_0189.jpg);
+    background-size: 100%;
+}
